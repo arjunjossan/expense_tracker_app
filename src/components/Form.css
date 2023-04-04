@@ -1,0 +1,26 @@
+.form{
+	padding: 25px;
+	background-color: aliceblue;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.cont-form{
+	margin-left: 300px;
+	width: 50%;
+	border: solid 1px aqua;
+	border-radius: 5px;
+	padding-top: 10px;
+	margin-top: 10px
+}
+.form-label{
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(26, 99, 75);
+}
+.form-input{
+	background-color: rgb(198, 245, 245);
+	padding-left: 14px;
+	padding-right: 14px;
+	border: none;
+	border-radius: 10px;
+}

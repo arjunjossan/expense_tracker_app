@@ -1,0 +1,12 @@
+.add-btn{
+margin-left: 15px;
+}
+.expense-row{
+	margin-left:15px; 	
+	border: solid 1px blue;
+	border-radius: 5px;
+	padding: 7px;
+	width: 80%;
+	color: blue;
+	font-weight: bolder;
+}
