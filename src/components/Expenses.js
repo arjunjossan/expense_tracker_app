@@ -19,6 +19,11 @@ function Expenses(props) {
 		ExpenseDate:Date()
 	}
 ]
+
+const newdate = new Date(data[0].ExpenseDate);
+	const date = newdate.toLocaleString('default',{day:'numeric'});
+	const month = newdate.toLocaleString('default',{month:'long'});
+	const year = newdate.toLocaleString('default',{year:'numeric'});
   return (
 	<>
 	{/* <button className='btn btn-primary btn-lg mt-2 add-btn'>Add Expense + </button> */}
@@ -30,7 +35,7 @@ function Expenses(props) {
 
 	<div className='row mt-3 expense-row'>
 	  <div className='col-3'>	  {data[0].ExpenseTitle}	  </div>
-	  <div className='col-5'>	  {data[0].ExpenseDate}	  </div>
+	  <div className='col-5'>	  {date} {month} {year}	  </div>
 	  <div className='col-3'>	  {data[0].ExpenseAmount}	  </div>
 	</div>
 
