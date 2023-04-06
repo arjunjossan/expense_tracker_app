@@ -14,7 +14,7 @@ const newdate = new Date(props.date);
 	<div className='row mt-3 expense-row'>
 	  <div className='col-3'>	  {props.title}	  </div>
 	  <div className='col-5'>	  {date} {month} {year}	  </div>
-	  <div className='col-3'>	  {props.amount} </div>
+	  <div className='col-3'>	 ${props.amount} </div>
 	</div>
 	</>
   )

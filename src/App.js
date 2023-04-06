@@ -10,7 +10,7 @@ function App() {
   // const[]
 	const data = [{
 		ExpenseTitle:'Grocery',
-		ExpenseAmount:'250$',
+		ExpenseAmount:'250',
 		ExpenseDate:'2023-01-23'
 	}]
 
