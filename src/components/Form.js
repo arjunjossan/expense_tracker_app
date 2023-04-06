@@ -45,6 +45,8 @@ function Form(props) {
 		
 	}
 
+	const today = new Date().toISOString().split("T")[0];
+
   return (
 	<>
 	<div className='container cont-form'>
@@ -63,7 +65,7 @@ function Form(props) {
 		
 		<div className='row'>
 			<div className='col-6'><label className='form-label'>On which date</label></div>
-			<div className='col-6'><input onChange={datehandler} value={userinput.ExpenseDate} className='form-input' type='date' placeholder='date...' required/><br/></div>
+			<div className='col-6'><input onChange={datehandler} value={userinput.ExpenseDate} className='form-input' max={today} type='date' placeholder='date...' required/><br/></div>
 		</div>
 		<input onClick={submithandler}  className='btn btn-primary' type='submit'/>
 	  </form>
