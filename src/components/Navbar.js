@@ -18,10 +18,10 @@ function Navbar() {
 
 
 
-<div className='row'>
+{/* <div className='row'>
 		<div className='col-10'></div>
 		<div className='col-2'><Link to='/new' className='btn btn-primary mt-2 add-btn'>Add Expense +</Link></div>
-	</div>
+	</div> */}
 	</div>
   </>
   )

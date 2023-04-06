@@ -4,6 +4,7 @@ import Expenses from './components/Expenses';
 import Form from './components/Form';
 import { useState } from 'react';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import AddExpenseButton from './components/AddExpenseButton';
 
 function App() {
   // const[]
@@ -20,6 +21,7 @@ function App() {
 
 <Router>
   <Navbar/>
+  <AddExpenseButton/>
   <Routes>
     <Route
     element = {<Form userexpense={userexpense} setuserexpense={setuserexpense} />}
