@@ -12,7 +12,23 @@ function App() {
 		ExpenseTitle:'Grocery',
 		ExpenseAmount:'250',
 		ExpenseDate:'2023-01-23'
-	}]
+	},
+  {
+		ExpenseTitle:'Gym',
+		ExpenseAmount:'25',
+		ExpenseDate:'2022-11-23'
+	}
+  ,{
+		ExpenseTitle:'Electricity bill',
+		ExpenseAmount:'2700',
+		ExpenseDate:'2023-08-20'
+	}
+  ,{
+		ExpenseTitle:'Cloth Washing',
+		ExpenseAmount:'20',
+		ExpenseDate:'2020-01-23'
+	}
+]
 
   const[userexpense,setuserexpense] = useState(data)
   return (

@@ -6,4 +6,9 @@
 	width: 80%;
 	color: blue;
 	font-weight: bolder;
+	background-color: rgb(221, 245, 245);
+}
+.expense-row:hover{
+	background-color:rgb(198, 243, 243);
+	
 }

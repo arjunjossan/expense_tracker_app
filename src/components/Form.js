@@ -6,6 +6,8 @@ function Form(props) {
 
 	const navigate = useNavigate();
 
+	
+
 	const defaultvalue = {
 		ExpenseTitle:'',
 		ExpenseAmount:'',
@@ -47,8 +49,13 @@ function Form(props) {
 
 	const today = new Date().toISOString().split("T")[0];
 
+	
+
+
+
   return (
 	<>
+	
 	<div className='container cont-form'>
 		<h3>Add your new expense</h3>
 	<div className='form'>
